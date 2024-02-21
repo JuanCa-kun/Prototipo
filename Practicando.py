@@ -55,7 +55,7 @@ print("división real:")
 resultado_op = operadores_uno // operadores_dos
 print("El resultado de la división", resultado_op)
 
-palabra = input("Escribe una palabra")
+palabra = input("Escribe una palabra: ")
 valor = int(input("Escribe un valor:"))
 print("Esta es tu palabra ", palabra)
 print("Esta es tu número ", valor)
