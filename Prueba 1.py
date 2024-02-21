@@ -57,3 +57,4 @@ print("El resultado de la división", resultado_op)
 
 palabra = input("Escribe una palabra")
 valor = int(input("Escribe un valor:"))
+print("Esta es tu palabra ", palabra)
