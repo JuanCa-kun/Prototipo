@@ -62,3 +62,10 @@ print(posicion_subcadena)
 extraer_subcadena = buscar[10:21]
 print(extraer_subcadena)
 print(buscar == mensaje)
+
+"Condicionales"
+operadores_uno = int(input("Dame el primer operador "))
+operadores_dos = int(input("Dame el segundo operador "))
+if operadores_uno == operadores_dos:
+    print("El operador uno es igual al operador dos")
+print("fin \n")
