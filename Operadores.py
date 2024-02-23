@@ -19,3 +19,14 @@ if num_uno >= num_dos:
     print("El numero", num_uno, "es mayor igual que", num_dos)
 else:
     print("El numero", num_uno, "es menor igual que", num_dos)
+
+print("\n\n\n--------------------------")
+print("|   Operadores lógicos   |")
+print("--------------------------")
+
+valor_Uno = int(input("Ingresa un número mayor a 5 pero menor que 15:"))
+if valor_Uno > 5 and valor_Uno < 15:
+    print("El valor cumple con la condición")
+else:
+    print("JAJAJA no te sabes ni los números pa")
+valor_Uno = int(input("Ingresa un número mayor a 5 pero menor que 15:"))
