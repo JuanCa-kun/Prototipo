@@ -7,7 +7,7 @@ print("--------------------------")
 
 vacaciones = 0
 nombre = input("¿Con quien tengo el gusto? ")
-print("¡Hola! Mucho gusto ", nombre)
+print("¡Hola! Mucho gusto", nombre)
 antiguedad = int(input("Ingrese la cantidad de años que a trabajado en la empresa: "))
 
 if antiguedad < 1:
@@ -23,21 +23,21 @@ claveDepartamento = int(input("Ingrese su clave (1, 2 o 3): "))
 if claveDepartamento == 1:
     if antiguedad == 1:
         vacaciones = 6
-    elif antiguedad >= 2 or antiguedad <= 6:
+    elif antiguedad >= 2 and antiguedad <= 6:
         vacaciones = 14
     elif antiguedad >= 7:
         vacaciones = 20
 elif claveDepartamento == 2:
     if antiguedad == 1:
         vacaciones = 7
-    elif antiguedad >= 2 or antiguedad <= 6:
+    elif antiguedad >= 2 and antiguedad <= 6:
         vacaciones = 15
     elif antiguedad >= 7:
         vacaciones = 22
 elif claveDepartamento == 3:
     if antiguedad == 1:
         vacaciones = 10
-    elif antiguedad >= 2 or antiguedad <= 6:
+    elif antiguedad >= 2 and antiguedad <= 6:
         vacaciones = 20
     elif antiguedad >= 7:
         vacaciones = 30
