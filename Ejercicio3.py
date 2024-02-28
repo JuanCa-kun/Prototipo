@@ -1,3 +1,5 @@
+import sys
+
 print("+++++++++++++++++++++")
 print("+  ¿Cúal es mayor?  +")
 print("+++++++++++++++++++++")
@@ -8,7 +10,10 @@ valorUno = int(input("Ingresa el primer valor: "))
 valorDos = int(input("Ingresa el segundo valor: "))
 valorTres = int(input("Ingresa el tercer valor: "))
 
-if valorUno < valorDos < valorTres:
+if valorUno == valorDos == valorTres:
+    print("Los 3 valores son iguales")
+    sys.exit
+elif valorUno < valorDos < valorTres:
     numeros_ordenados = [valorUno, valorDos, valorTres]
 elif valorUno < valorTres < valorDos:
     numeros_ordenados = [valorUno, valorTres, valorDos]
