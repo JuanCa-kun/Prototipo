@@ -26,3 +26,4 @@ else:
 # Mostrar el resultado
 print("ADN:", cadena_adn)
 print("Negación de la palabra:", resultado)
+        
